@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#section {
+  align-items: center;
+  display: flex;
+  flex-direction: content;
+  justify-content: space-between;
+  margin: 10% 10%;
+  padding: 0% 10%;
+  border-radius: 10%;
+  height: auto;
+  background-color: #1a1a1d;
+
+  @media (max-width: 300px) {
+    flex-direction: column;
+    gap: 30px;
+  }
+  @media (min-height: 768px) {
+    row: 30;
+    flex-wrap: wrap;
+    row-gap: 10;
+  }
+}
+
+#footer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
